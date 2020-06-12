@@ -1,0 +1,114 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: #252E71;
+}
+
+.dropdown-item:hover {
+    color: #252E71 !important;
+    background-color: white;
+}
+html {
+    position: relative;
+    /*min-height: 100%;*/
+  min-height: 100vh;
+  font-family: 'OpenSans' !important;
+}
+body {
+  /* Margin bottom by footer height */
+    /*margin-bottom: 0px; */
+  font-family: 'OpenSans' !important;
+}
+
+a{
+text-decoration: none;
+color: #252E71;
+}
+
+a:hover{
+text-decoration: none;
+color: #2962FF;
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.imgsatu{
+    max-width: 50%;
+    float: right;
+}
+
+.diagonal-biru {
+    height: 35em;
+    background: #252E71;
+    /* -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+    clip-path: polygon(100% 0, 0 0, 0 200%); */
+    padding: 18vh 10% 1% 10%;
+
+}
+
+.hard-blue-text{
+    color: #252E71;
+}
+
+.soft-blue-text{
+    color: #2962FF;
+}
+
+.card.vdp{
+    width: 100px; 
+    height: 230px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 6px #c7cad1
+
+}
+
+.card-img-top.vdp{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-title{
+    margin-top: auto !important ;
+    text-align: center;
+}
+
+.textatas{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.cardcarakerjabughunt{
+    border: #FF9800 !important;
+    box-shadow: 0px 4px 6px #c7cad1;
+    
+}
+
+.blocked{
+    height: 80px;
+}
+
+.cardcarakerjaca{
+    height: 80px;
+    box-shadow: 0px 4px 6px #c7cad1;
+}
+.cardcarakerjabughunt{
+    height: 80px;
+    box-shadow: 0px 4px 6px #c7cad1;
+}
+
+.cardcarakerjaowner{
+    height: 80px;
+    box-shadow: 0px 4px 6px #c7cad1;
+}
+.footer a {
+    color: white;
+}

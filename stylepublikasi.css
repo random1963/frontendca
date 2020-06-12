@@ -1,0 +1,74 @@
+/* CSS UTAMA */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: #252E71;
+}
+
+.dropdown-item:hover {
+    color: #252E71 !important;
+    background-color: white;
+}
+html {
+    position: relative;
+    /*min-height: 100%;*/
+  min-height: 100vh;
+  font-family: 'OpenSans' !important;
+}
+body {
+  /* Margin bottom by footer height */
+    /*margin-bottom: 0px; */
+  font-family: 'OpenSans' !important;
+}
+
+a{
+text-decoration: none;
+color: #252E71;
+}
+
+a:hover{
+text-decoration: none;
+color: #2962FF;
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+
+.nav-link{
+    color: #252E71 !important;
+}
+.hard-blue-text{
+    color: #252E71;
+}
+
+.soft-blue-text{
+    color: #2962FF;
+}
+
+.footer a {
+    color: white;
+}
+/* END CSS UTAMA */
+
+.menu-pub{
+    border: orange;
+    padding: 0;
+    background-color: #fff; 
+    box-shadow: 0px 0px 10px #c7cad1;
+    position: relative;
+    
+}
+
+.menu-utama p:active {
+    color: #2962FF;
+}
+
+.menu-utama p:hover {
+    color: #2962FF;
+}
+
+
+.aware{
+    width: 50px;
+    height: 20px;
+}
