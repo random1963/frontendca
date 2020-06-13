@@ -75,3 +75,10 @@ color: #2962FF;
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
+
+
+.footercard:hover{
+    color: white !important;
+    background-color: #252E71 !important;
+
+}
