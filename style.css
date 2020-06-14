@@ -12,6 +12,14 @@
     color: white;
 }
 
+.hard-blue-text{
+    color: #252E71;
+}
+
+.soft-blue-text{
+    color: #2962FF;
+}
+
 html {
     position: relative;
     /*min-height: 100%;*/
@@ -36,8 +44,14 @@ color: #2962FF;
 .logo{
     width: 150px;
     float: left;
+    display: block;
 }
 
+.logo2{
+    width: 150px;
+    float: left;
+    display: none;
+}
 
 .carousel-item {
     height: 100vh;
@@ -90,9 +104,15 @@ color: #2962FF;
 
 
 .carousel-item.active.test{
-    vertical-align: middle;
-    height: 100px;
+    width: 100%;
+    max-height: 350px !important;
+
+
 }
+.carousel-inner.test{
+    width:100%;
+    max-height: 350px !important;
+  }
 
 
 .card.m-3{
@@ -125,6 +145,7 @@ color: #2962FF;
 .carousel-inner.card{
     width:100%;
     max-height: 300px !important;
+    border: none;
   }
 
 .carousel-inner.atas{
@@ -151,7 +172,6 @@ color: #2962FF;
 }
 .carousel-indicators .active {
     background-color: #6273b6 !important;
-    border: 1px solid #6273b6;
 }
 
 .card-img.produk{
@@ -165,9 +185,7 @@ color: #2962FF;
     box-shadow: 0px 0px 15px #c7cad1;
 }
 
-.card.produk:hover{
-    box-shadow: 10px 10px 15px #c2add1;
-}
+
 
 .container.next{
     border-radius: 15px;
@@ -187,3 +205,40 @@ color: #2962FF;
 .footer a {
     color: white;
 }
+
+.containerclient img{
+    width: 50% !important;
+}
+
+.produk{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 50px #c7cad1 ;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.pengujiancontainer{
+    height: 300px;
+    width: 100%;
+}
+
+/* responsif manual untuk container pengujian */
+@media only screen and (max-width: 755px) {
+    /* For tablets: */
+   .pengujiancontainer{height: 800px;}
+  }
+
+  nav.scroll {
+    background-color: #A1572F;
+    color: #eef;
+  }
+
+  .itemnav{
+      color: white !important;
+  }
